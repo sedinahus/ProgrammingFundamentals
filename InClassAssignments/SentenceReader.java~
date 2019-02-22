@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class SentenceReader
+{
+  public static void main(String[] args)
+  {
+    char sentence;
+    Scanner input = new Scanner(System.in);
+    System.out.println("Please type in a sentence: ");
+    sentence = input.nextChar();
+    
+    System.out.println("Did you say, " + sentence);
+    
+  }
+}

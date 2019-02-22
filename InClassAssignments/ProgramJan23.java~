@@ -1,0 +1,12 @@
+public class ProgramJan23
+{
+  public static void main(String[] args)
+  {
+    // declare and assign variable
+    int yourAge = 20;
+    // add 1 to your age, assign to the new variable
+    int yourAgeNextYear = yourAge++;
+    
+    System.out.println(yourAgeNextYear);
+  }
+}

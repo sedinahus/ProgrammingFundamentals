@@ -1,0 +1,9 @@
+public class TestPrint
+{
+  public static void main(String[] args)
+  {
+    int num1 = 45;
+    int num2 = 5;
+    System.out.printf("The result of %d divided by %d is %d" , num1, num2, num1/num2);
+  }
+}

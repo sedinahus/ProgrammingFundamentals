@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class SwtichStatementTwo
+{
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    System.out.println("******** MENU **********");
+    System.out.println("a. add new record.");
+    System.out.println("b. edit a record.");
+    System.out.println("c. print a record.");
+    System.out.println("d. delete a record.");
+    System.out.println("x. exit the program.");
+    
+    System.out.println("Enter your selection: ");
+    char userResponse = input.nextChar();
+    
+    switch(userResponse)
+    {
+      case 'a':
+        System.out.println("You selected to add.");
+        break;
+        
+      case 'b':
+        System.out.println("You selected to edit.");
+        break;
+        
+      case 'c':
+        System.out.println("You selected to print.");
+        break;
+        
+      case 'd':
+        System.out.println("You selected to delete.");
+        break;
+        
+//      case 'x':
+//        System.out.println("You selected to exit.");
+//        break;
+    }
+  }
+}

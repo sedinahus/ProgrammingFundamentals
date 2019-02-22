@@ -1,0 +1,16 @@
+public class EuropeTrip
+{
+  public static void main(String[] args)
+  {
+    //calculates currency, converts Euros to USD
+    
+    //declare and assign statement
+    double numberOfEuros = 350.00;
+    
+    //declare and assign/calculate value
+    double numberOfDollars = numberOfEuros * 1.14051;
+    
+    //output statement
+    System.out.println("The number of dollars needed is $" + numberOfDollars);
+  }
+}

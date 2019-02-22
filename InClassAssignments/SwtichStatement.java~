@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class SwtichStatement
+{
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Enter your year of birth to find Chinese zodiac sign: ");
+    int birthYear = input.nextInt();
+    
+    switch(birthyear % 12)
+    {
+      case 0;
+        System.out.println(birthYear + " is the year of Monkey.");
+        
+      case 1;
+        System.out.println(birthYear + " is the year of Rooster.");
+        
+      case 2;
+        System.out.println(birthYear + " is the year of Dog.");
+        
+      case 3;
+        System.out.println(birthYear + " is the year of Pig.");
+        
+      case 4; 
+        System.out.println(birthYear + " is the year of Rat.");
+        
+      case 5;
+        System.out.println(birthYear + " is the year of Ox.");
+        
+      case 6;
+        System.out.println(birthYear + " is the year of Tiger.");
+        
+      case 7;
+        System.out.println(birthYear + " is the year of Rabbit.");
+        
+      case 8;
+        System.out.println(birthYear + " is the year of Dragon.");
+        
+      case 9;
+        System.out.println(birthYear + " is the year of Snake.");
+        
+      case 10; 
+        System.out.println(birthYear + " is the year of Horse.");
+        
+      case 11; 
+        System.out.println(birthYear + " is the year of Sheep.");
+    }
+  }
+}

@@ -1,0 +1,17 @@
+public class GradingScale
+{
+  public static void main(String[] args)
+  {
+    //declare and initialize
+    int assignScore = 92;
+    int projectScore = 90;
+    int examScore = 85;
+    
+    double averageScore;
+    String finalGrade;
+    
+    
+    averageScore = assignScore * (20.0/100) + projectScore * (30.0/100) + examScore * (50.0/100);
+    System.out.println("Average score: " + averageScore);
+  }
+}

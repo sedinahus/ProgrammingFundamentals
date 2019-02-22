@@ -1,0 +1,15 @@
+public class ProgramJan30
+{
+  public static void main(String[] args)
+  {
+    double drivingTestScore = 75;
+    
+    if (drivingTestScore >= 70) //semi colon not required on if statements
+      System.out.println("You passed the test!");
+    
+    
+    
+    
+    
+  }
+}

@@ -1,0 +1,17 @@
+// import scanner class, to be able to read from keyboard
+import java.util.Scanner;
+
+public class ProgramJan14
+{
+  public static void main(String[] args)
+  {
+    //Create an i nstance of Scanner class
+    Scanner keyboard = new Scanner(System.in);
+    
+    System.out.println("Enter your name: ");
+    String yourName = keyboard.nextLine();
+    
+    System.out.println("Yout name is: " + yourName);
+    
+  } //end of main method
+} // end of class

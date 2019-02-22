@@ -1,0 +1,16 @@
+public class DisplayTime
+{
+  public static void main(String[] args)
+  {
+    // declare a variable and assign a value
+    long numSeconds = 345678923456L; //always put "L" at the end of the sequence
+    
+    long numMinutes = numSeconds/60; // integer division
+    
+    System.out.println("Num of minutes: " + numMinutes);
+    
+    
+    
+  }
+}
+

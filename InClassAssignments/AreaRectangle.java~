@@ -1,0 +1,20 @@
+/**
+ * This program computes the area of a square. Type it in and run it in Dr.java.
+ * 
+ * @author Sedina Husanovic
+ */
+
+public class AreaRectangle
+{
+  public static void main(String[] args)
+  {
+    double sideLength = 6.6;
+    
+    double sideHeight = 2.0
+    
+    double area = sideLength * sideHeight;
+    
+    System.out.println("The area of the rectangle with side length " + sideLength + "and side height" + sideHeight);
+    System.out.println("is " + area);
+  }
+}
